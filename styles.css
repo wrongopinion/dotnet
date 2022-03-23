@@ -1,0 +1,40 @@
+a {
+	color: black;
+}
+body{
+	color: black;
+	background-color: white;
+}
+@font-face {
+	font-family: MUARA;
+	src: url('./img/MUARA.ttf');
+}
+.primary_body, #primary_body{
+	max-width: 100%;
+	height: auto;
+	width: auto\9;
+	text-align: center;
+	font-family: MUARA;
+	margin-left: auto;
+	margin-right: auto;
+}
+.title, #title {
+	margin-top: 6rem;
+	font-size: 6rem;
+}
+.video, #video{
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+.links, #links{
+	padding: 2rem;
+	font-size: 2rem;
+	margin-top: 2rem;
+}
+.crypto, #crypto{
+	font-family: monospace;
+	margin-top: 2rem;
+}
+.donate, #donate{
+	margin-bottom: -1rem;
+}
